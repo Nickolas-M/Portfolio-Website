@@ -1,7 +1,5 @@
 // Displays a world map using Leaflet.js and the GeoJSON data in world_borders.js (Highlights country borders)
-var map = L.map('map', {
-    worldCopyJump: false
-}).setView([20, 0], 3);
+var map = L.map('map', {}).setView([20, 0], 3);
 
 var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     minZoom: 2,
