@@ -1,28 +1,53 @@
 @import "tailwindcss";
 
 /* Sets the color scheme */
+/* opt2
 @theme {
-  --color-background: #0f1418;
-  --color-foreground: #f0f2f5; 
+  --color-background: #06141a;
+  --color-foreground: #e6f7ff;
 
-  --color-card: #141a1f;
+  --color-card: #0c1f2a;
 
-  --color-primary: #20b2a6;
-  --color-primary-foreground: #ffffff;
+  --color-primary: #00e5ff;
+  --color-primary-foreground: #041014;
 
-  --color-secondary: #1f2830;
-  --color-secondary-foreground: #20b2a6;
+  --color-secondary: #1a2b3a;
+  --color-secondary-foreground: #b388ff;
 
-  --color-muted: #252e37;
-  --color-muted-foreground: #7a8491;
+  --color-muted: #10222e;
+  --color-muted-foreground: #7aa6c2;
 
-  --color-border: #242b32;
+  --color-border: #163344;
 
   --radius: 0.75rem;
 
-  --color-highliught: #f5a623;
-  --color-surface: #1a2329;
+  --color-highliught: #ff4fd8;
+  --color-surface: #0a1822;
 }
+*/
+@theme {
+  --color-background: #070b14;
+  --color-foreground: #e6edf7;
+
+  --color-card: #0f1624;
+
+  --color-primary: #3ddcff;
+  --color-primary-foreground: #041018;
+
+  --color-secondary: #1c2740;
+  --color-secondary-foreground: #9fb3ff;
+
+  --color-muted: #182133;
+  --color-muted-foreground: #8ea0b8;
+
+  --color-border: #1f2a3d;
+
+  --radius: 0.75rem;
+
+  --color-highliught: #ffcc66;
+  --color-surface: #121a2b;
+}
+
 /* Setting the base layer color & font */
 @layer base {
   html {
