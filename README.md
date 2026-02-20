@@ -7,5 +7,5 @@ As I progress, I plan to fully customize and expand the site based on what I’v
 
 Stay tuned as I continue improving and refining this project.
 
-## Tech Stack
+# Tech Stack
 React, Tailwind CSS, Vite, JavaScript
