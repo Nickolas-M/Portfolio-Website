@@ -6,6 +6,3 @@ I’m following a [YouTube Tutorial](https://www.youtube.com/watch?v=cIYdiRDFWQw
 As I progress, I plan to fully customize and expand the site based on what I’ve learned.
 
 Stay tuned as I continue improving and refining this project.
-
-# Tech Stack
-React, Tailwind CSS, Vite, JavaScript
