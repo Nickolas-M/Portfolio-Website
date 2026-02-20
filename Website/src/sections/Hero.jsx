@@ -84,12 +84,30 @@ export const Hero = () => {
                                 href={social.href} 
                                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                             >
-                                {<social.icon classname="w-5 h-5"/>}
+                                {<social.icon className="w-5 h-5"/>}
                             </a>
                         ))}
                     </div>
                 </div>
                 {/* Right Column - Profile Image */}
+                <div className="relative animate-fade-in animation-delay-300">
+                    {/* Profile Image */}
+                    <div className="relative max-w-md mx-auto">
+                        <div 
+                            className="absolute inset-0
+                            rounded-3xl bg-linear-to-br
+                            from-primary/30 via-transparent
+                            to-primary/10 blur-2xl animate-pulse"
+                        />
+                        <div className="relative glass rounded-full p-2 glow-border">
+                            <img 
+                                src="/profile-photo.jpg" 
+                                alt="Nickolas Martin" 
+                                className="w-full aspect-4/5 object-cover rounded-full"
+                            />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
