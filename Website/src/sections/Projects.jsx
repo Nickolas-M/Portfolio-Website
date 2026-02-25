@@ -8,7 +8,7 @@ const projects = [
             "descriptions goes here",
         image: "/projects/project1.png",
         tags: ["Temp", "Temp", "Temp", "Temp"],
-        link: "#",
+        //link: "#",
         github: "#",
     },
     {
@@ -17,7 +17,7 @@ const projects = [
             "descriptions goes here",
         image: "/projects/project2.png",
         tags: ["Temp", "Temp", "Temp", "Temp"],
-        link: "#",
+        //link: "#",
         github: "#",
     },
     {
@@ -26,7 +26,7 @@ const projects = [
             "descriptions goes here",
         image: "/projects/project3.png",
         tags: ["Temp", "Temp", "Temp", "Temp"],
-        link: "#",
+        //link: "#",
         github: "#",
     },
     {
@@ -35,7 +35,7 @@ const projects = [
             "descriptions goes here",
         image: "/projects/project4.png",
         tags: ["Temp", "Temp", "Temp", "Temp"],
-        link: "#",
+        //link: "#",
         github: "#",
     },
 ]
@@ -86,9 +86,9 @@ export const Projects = () => {
                                 />
                                 {/* Overlay Links*/}
                                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                    <a href={projects.link} className="p-3 rounded-full gass hover:bg-primary hover:text-primary-foreground transition-all">
+                                    {/*<a href={projects.link} className="p-3 rounded-full gass hover:bg-primary hover:text-primary-foreground transition-all">
                                         <ArrowUpRight className="w-5 h-5" />
-                                    </a>
+                                    </a>*/}
                                     <a href={projects.github} className="p-3 rounded-full gass hover:bg-primary hover:text-primary-foreground transition-all">
                                         <Github className="w-5 h-5" />
                                     </a>

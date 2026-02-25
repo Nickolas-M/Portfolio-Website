@@ -2,23 +2,18 @@ import {Button} from '@/components/Button';
 import { ArrowRight, Download, ChevronDown, Github, Linkedin } from "lucide-react"; 
 
 const skills = [
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
-    "TEMP",
+    "Cybersecurity",
+    "Windows",
+    "Linux",
+    "Troubleshooting",
+    "Networking",
+    "Endpoint Support",
+    "Active Directory",
+    "Log Analysis",
+    "Threat Detection",
+    "Security Awareness",
+    "Compliance",
+    "Coordination",
 ]
 
 export const Hero = () => {
@@ -83,13 +78,18 @@ export const Hero = () => {
 
                     {/* Call to action */}
                     <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-                        <Button size="lg">
-                            Contact Me <ArrowRight className="w-5 h-5" />
-                        </Button>
-
-                        <Button size="lg" className="relative z-10 items-center justify-center">
-                            Download CV <Download className="w-5 h-5" />
-                        </Button>
+                        <a href="#contact">
+                            <Button size="lg">
+                                Contact Me <ArrowRight className="w-5 h-5" />
+                            </Button>
+                        </a>
+                        <a href="/Nickolas_Martin_CV.pdf" download>
+                            <Button
+                                size="lg" 
+                                className="relative z-10 items-center justify-center">
+                                Download CV <Download className="w-5 h-5" />
+                            </Button>
+                        </a>
                     </div>
 
                     {/* Social Links */}
@@ -147,7 +147,10 @@ export const Hero = () => {
         </div>
 
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
-            <a href="#about" className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group">
+            <a 
+                href="#about" 
+                className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
+            >
                 <span className="text-xs uppercase tracking-wider">Scroll</span>
                 <ChevronDown className="w-6 h-6 animate-bounce" />
             </a>
